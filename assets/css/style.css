@@ -8,6 +8,8 @@
 
 /* CUSTOM RESETS
 ================================================== */
+
+
 a, button {
   -webkit-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -845,6 +847,7 @@ html, body {
 
 /* Section: Skills */
 .section-skills {
+  display:none;
   background-color: #f6f6f6;
 }
 
@@ -1433,6 +1436,7 @@ html, body {
 }
 
 .team-member .team-member-front {
+  background-color: cornflowerblue;
   z-index: 2;
   border: 1px solid #ccc;
   width: 100%;
@@ -1656,7 +1660,7 @@ html, body {
   top: 20px;
 }
 
-.timeline > li > .timeline-panel .timeline-body p {
+.timeline > li > .timeline-panel .timeline-body ul {
   padding-left: 120px;
   margin-bottom: 0;
 }
@@ -2037,6 +2041,7 @@ html, body {
 /* Sections background: Quote */
 .section-quote {
   background: url(../img/quote.jpg) center no-repeat fixed;
+  display: none;
 }
 
 .section-quote p {
